@@ -1,0 +1,43 @@
+.card {
+    position: relative;
+    height: 200px;
+    width: 400px;
+    border: 1px solid rgb(167, 153, 153);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgb(252, 246, 246);
+}
+
+.card-descriptions {
+    display: flex;
+}
+
+.img-des {
+    position: absolute;
+    width: 50%;
+}
+
+
+.imageBS1 {
+    width: 90%;
+    object-fit: contain;
+}
+
+.prof-des {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    top: 10%;
+    text-align: left;
+}
+
+.prof-des > span {
+    display: block;
+    margin: 5px;
+}
+
+.info-title {
+    font-weight: 700;
+    font-size: 20px;
+}
